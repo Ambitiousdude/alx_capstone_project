@@ -1,11 +1,11 @@
 # Personal Portfolio Website Project
 
 ## 📑 Table of contents
-    - 📖 Project Overview
-    - 💻 Features
-    - 🛠️ Technologies used
-    - 📸/📹 Live Demo/Screenshot
-    - 👤 Contact Information
+    * 📖 Project Overview
+    * 💻 Features
+    * 🛠️ Technologies used
+    * 📸/📹 Live Demo/Screenshot
+    * 👤 Contact Information
 
 
 ### 📖 Project Overview
@@ -15,15 +15,15 @@ This project is all about designing a personal portfolio from scratch having dif
 ### 💻 Features
 
 The features consists of 
-    - Home: Contains my name, and my expertise.
-    - About me: Showcases my Skills, Education, and Experiences.
-    - Portfolio: Contains my works, and what I have done.
-    - Contact: Contains my social media handles
+    * Home: Contains my name, and my expertise.
+    * About me: Showcases my Skills, Education, and Experiences.
+    * Portfolio: Contains my works, and what I have done.
+    * Contact: Contains my social media handles
 
 ### 🛠️ Technologies used
-    - HTML5
-    - CSS
-    - JAVASCRIPT(DOM MANIPULATION, HTML FORMS, and HTML + JS VALIDATION)
+    * HTML5
+    * CSS
+    * JAVASCRIPT(DOM MANIPULATION, HTML FORMS, and HTML + JS VALIDATION)
 
 ### 📸/📹 Live Demo/Screenshot
 
@@ -31,6 +31,6 @@ The features consists of
 
 ### 👤 Contact Information
 
-- [LinkedIn Profile:](https://www.linkedin.com/in/augustine-ugberaese-223692162/)
-- [GitHub Profile:](https://github.com/Ambitiousdude/)
-- [Twitter Profile:](https://twitter.com/AUgberaese/)
+* [LinkedIn Profile](https://www.linkedin.com/in/augustine-ugberaese-223692162/)
+* [GitHub Profile](https://github.com/Ambitiousdude/)
+* [Twitter Profile](https://twitter.com/AUgberaese/)
