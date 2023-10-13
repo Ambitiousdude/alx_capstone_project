@@ -31,4 +31,6 @@ The features consists of
 
 ### 👤 Contact Information
 
-- [LinkedIn](https://www.linkedin.com/in/augustine-ugberaese-223692162/)
+- [LinkedIn Profile:](https://www.linkedin.com/in/augustine-ugberaese-223692162/)
+- [GitHub Profile:](https://github.com/Ambitiousdude/)
+- [Twitter Profile:](https://twitter.com/AUgberaese/)
