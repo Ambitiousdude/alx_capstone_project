@@ -26,7 +26,9 @@ The features consists of
 * JAVASCRIPT(DOM MANIPULATION, HTML FORMS, and HTML + JS VALIDATION)
 
 ### 📸/📹 Live Demo/Screenshot
-
+![Screenshot of the project](./High%20fidelity%20design/Frame%201.png)
+![Screenshot of the project](./High%20fidelity%20design/Frame%202.png)
+![Screenshot of the project](./High%20fidelity%20design/Frame%203.png)
 
 
 ### 👤 Contact Information
