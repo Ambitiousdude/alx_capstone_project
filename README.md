@@ -31,5 +31,4 @@ The features consists of
 
 ### 👤 Contact Information
 
-- [LinkedIn](www.linkedin.com/in/
-augustine-ugberaese-223692162)
+- [LinkedIn](https://www.linkedin.com/in/augustine-ugberaese-223692162/)
