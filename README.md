@@ -5,7 +5,7 @@
     - 💻 Features
     - 🛠️ Technologies used
     - 📸/📹 Live Demo/Screenshot
-    - 👤  Contact Information
+    - 👤 Contact Information
 
 
 ### 📖 Project Overview
@@ -20,9 +20,16 @@ The features consists of
     - Portfolio: Contains my works, and what I have done.
     - Contact: Contains my social media handles
 
-### > [!IMPORTANT] 🛠️ Technologies used
+### 🛠️ Technologies used
     - HTML5
     - CSS
     - JAVASCRIPT(DOM MANIPULATION, HTML FORMS, and HTML + JS VALIDATION)
 
 ### 📸/📹 Live Demo/Screenshot
+
+
+
+### 👤 Contact Information
+
+- [LinkedIn](www.linkedin.com/in/
+augustine-ugberaese-223692162)
