@@ -20,7 +20,7 @@ The features consists of
     - Portfolio: Contains my works, and what I have done.
     - Contact: Contains my social media handles
 
-### [!Important] 🛠️ Technologies used
+### [!IMPORTANT] 🛠️ Technologies used
     - HTML5
     - CSS
     - JAVASCRIPT(DOM MANIPULATION, HTML FORMS, and HTML + JS VALIDATION)
