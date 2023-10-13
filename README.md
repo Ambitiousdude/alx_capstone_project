@@ -1,7 +1,7 @@
 # Personal Portfolio Website Project
 
 ## 📑 Table of contents
-    * 📖 Project Overview
+    1. 📖 Project Overview
     * 💻 Features
     * 🛠️ Technologies used
     * 📸/📹 Live Demo/Screenshot
@@ -15,7 +15,7 @@ This project is all about designing a personal portfolio from scratch having dif
 ### 💻 Features
 
 The features consists of 
-    * Home: Contains my name, and my expertise.
+* Home: Contains my name, and my expertise.
     * About me: Showcases my Skills, Education, and Experiences.
     * Portfolio: Contains my works, and what I have done.
     * Contact: Contains my social media handles
