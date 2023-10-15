@@ -19,6 +19,11 @@
     --main-color: #000000;
     --color1: #C6C4C4;
     --color2: #E95793;
-    --opacity: 0.85;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
 }
 
