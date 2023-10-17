@@ -19,6 +19,7 @@
     --main-color: #000000;
     --color1: #C6C4C4;
     --color2: #E95793;
+    --white-alpha: rgb(225, 225, 225, 0.25);
 }
 
 body{
@@ -26,9 +27,7 @@ body{
     height: 100vh;
 }
 
-/* ---------------- 
-Home section ----------- */
-
+/* Home section styling */
 .navbar{
     display: flex;
     justify-content: flex-end;
@@ -132,7 +131,7 @@ span{
     right: 6%;
 }
 
-/* About me section */
+/* About me section styling */
 
 .heading2{
     display: flex;
@@ -181,10 +180,96 @@ span{
     font-weight: 500;
 }
 
-
-.img2{
+.image2 .img2{
     position: absolute;
-    top: 95%;
+    top: 100%;
     border-radius: 0 0 45% 45%;
     left: 7%;
+}
+
+button{
+    user-select: none;
+}
+.about-tabs .tabs-items{
+    border:none;
+    background-color: transparent;
+    color: var(--main-color);
+    margin: 10px 20px 0;
+    padding: 0 0 10px;
+    position: relative;
+    left: 51%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all .3s ease;
+}
+
+
+.about-tabs .tabs-items::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color2);
+    transition: width  .3s ease;
+}
+
+
+.about-tabs .tabs-items:hover::before{
+    width: 100%;
+}
+
+
+.about-tabs .tabs-items.active2::before{
+    width: 100%;
+    background-color: var(--color2);
+}
+
+.about-tabs .tabs-items.active2{
+    color: var(--color2);
+    cursor: auto;
+}
+
+
+.timeline-items{
+    display: block;
+    position: relative;
+    left: 52.5%;
+    margin: 20px 0 0 0;
+}
+.timeline-items h4{
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+}
+
+.timeline-items p {
+    line-height: 22px;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
+
+
+.timeline-items .date{
+    color: var(--color2);
+    font-weight: 550;
+    padding-bottom: 10px; 
+}
+
+
+.download{
+    border: 1.5px solid var(--color2);
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    margin-top: 35px;
+    padding: 10px 15px;
+
+}
+
+.btn2{
+    text-decoration: none;
+    color: var(--main-color);
+   
 }
