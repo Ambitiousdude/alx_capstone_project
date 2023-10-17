@@ -21,9 +21,170 @@
     --color2: #E95793;
 }
 
+body{
+    background-color: var(--bg-color);
+    height: 100vh;
+}
+
+/* ---------------- 
+Home section ----------- */
+
 .navbar{
     display: flex;
     justify-content: flex-end;
     margin-top: 55px;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul a {
+outline:none;
+text-decoration: none;
+margin-left: 28px;
+transition: .3s;
+
+}
+
+ul a:hover, ul a.active1{
+    color: var(--color2);
+}
+
+section{
+    min-height: 100vh;
+}
+.home-section{
+    margin: 48px;
+}
+
+.home-section h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.P1{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+span{
+    color: transparent;
+    -webkit-text-stroke: .12px var(--color2);
+}
+.P2{
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.P3{
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border: 1.5px solid var(--color2);
+    border-radius: 5px;
+    color: var(--main-color);
+    font-weight: bold;
+    position: relative;
+    left: 150px;
+    bottom: 35px;
+    
+}
+
+.btn::before{
+    content:"";
+    width: 0%;
+    opacity: 0.45;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn:hover::before{
+    width: 100%;
+    background-color: var(--color2);
+    
+}
+
+.img{
+    border-radius: 0 0 45% 45%;
+    width: 300px;
+    position: absolute;
+    bottom: 20%;
+    right: 6%;
+}
+
+/* About me section */
+
+.heading2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 38%;  
+    font-weight:900;
+    font-size: 30px;
+}
+
+
+.about-content p {
+   position: relative;
+   left: 52.5%;
+   letter-spacing: 2px;
+   
+}
+
+
+.about-content span{
+    color: var(--color2);
+    font-weight: bolder;
+}
+
+.about-content h3{
+    position: relative;
+    left: 52.5%;
+    padding-top: 20px;
+}
+
+.skills{
+    display: flex;
+    position: relative;
+    left: 52.5%;
+}
+
+.skills .skill-items{
+    border: 1.5px solid var(--color2);
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+
+.img2{
+    position: absolute;
+    top: 95%;
+    border-radius: 0 0 45% 45%;
+    left: 7%;
+}
