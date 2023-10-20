@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <script src="./JAVASCRIPT/portfolio.js"></script>
+    
     
     <!-- Navigation section starts -->
    <header>
@@ -68,22 +68,38 @@
     </div>
 
     <div class="about-tabs">
-        <button type="button" class="tabs-items active2" data-target="#education">Education</button>
-        <button type="button" class="tabs-items" data-target="#experience">Education</button>
-        <div class="tab-content">
-            <div class="timeline-items">
+        <button type="button" class="tabs-items active2" data-target= "#education">Education</button>
+        <button type="button" class="tabs-items" data-target= "#experience">Experience</button>
+        
+        <!-- Education starts-->
+        <div class="tab-content active3" id="education">
+            <div class="time-line">
+              <div class="timeline-items">
                 <span class="date">2022-2023</span>
                 <h4>ALX/Holberton School Software Engineering Program</h4>
                 <p>We were taught the rudiments of Sofware Engineering and <br> exposed to different programming languages like Javascript, <br> Python, and MySQL.</p>
+            </div>  
+            </div>
+    </div>
+        <!-- Education ends-->
+
+        <!--Experience starts-->
+        <div class="tab-content" id="experience">
+            <div class="time-line">
+              <div class="timeline-items">
+                <span class="date">2022-2023</span>
+                <h4>Front-end Developer</h4>
+                <p>Being a Front-End Developer at XYZ Tech Solutions <br>has been a dynamic and rewarding experience.<br> I've had the opportunity to work on diverse projects, <br>improve user experiences, and contribute to the company's success 
+                <br>by ensuring the web applications are modern, efficient, and user-friendly.</p>
             </div>
         </div>
 
-        <div class="download">
-            <a href="#" class="btn2">Download CV</a>
-        </div>
+        <!--Experience ends--> 
+        
     </div>
+    <a href="#" class=" btn" id="btn2">Download Cv</a>
    </section>
    <!-- About me section ends-->
-
+<script src="./JAVASCRIPT/portfolio.js"></script>
 </body>
 </html>

@@ -19,7 +19,6 @@
     --main-color: #000000;
     --color1: #C6C4C4;
     --color2: #E95793;
-    --white-alpha: rgb(225, 225, 225, 0.25);
 }
 
 body{
@@ -190,6 +189,7 @@ span{
 button{
     user-select: none;
 }
+
 .about-tabs .tabs-items{
     border:none;
     background-color: transparent;
@@ -231,45 +231,88 @@ button{
     cursor: auto;
 }
 
-
-.timeline-items{
-    display: block;
+.about-tabs .tab-content{
     position: relative;
     left: 52.5%;
-    margin: 20px 0 0 0;
-}
-.timeline-items h4{
-    margin: 0 0 20px 0;
-    letter-spacing: 2px;
+    margin-top: 5px;
+    display: none;
+    height: 100%;
+
+    
 }
 
-.timeline-items p {
-    line-height: 22px;
-    letter-spacing: 2px;
-    font-weight: 550;
+.about-tabs .tab-content.active3{
+    display: block;
 }
 
 
-.timeline-items .date{
+.about-tabs .timeline-items .date{
+    display: block;
     color: var(--color2);
-    font-weight: 550;
-    padding-bottom: 10px; 
+    font-weight: 500;
 }
 
 
-.download{
+.about-tabs .timeline-items h4{
+    margin-bottom: 10px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+
+.about-tabs .timeline-items p {
+    font-weight: 550;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+
+.about-tabs .time-line{
+    position: relative;
+}
+
+.about-tabs .time-line::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    top: 0;
+    left: 5px;
+    background-color: var(--color2);
+
+}
+
+
+.about-tabs .timeline-items{
+    position: relative;
+    padding: 10px 0 0 20px;
+}
+.about-tabs .timeline-items::before{
+    content: '';
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    left: 0;
+    top: 14.5px;
+    background-color: var(--color2);
+    border-radius: 50%;
+}
+
+
+
+
+
+ #btn2{
+    text-decoration: none;
+    color: var(--main-color);
     border: 1.5px solid var(--color2);
     border-radius: 5px;
+    font-weight: 500;
     display: inline-block;
     position: relative;
     left: 65%;
+    bottom: 10%;
     margin-top: 35px;
     padding: 10px 15px;
-
-}
-
-.btn2{
-    text-decoration: none;
-    color: var(--main-color);
    
 }
