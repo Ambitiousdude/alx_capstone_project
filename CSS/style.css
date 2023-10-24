@@ -320,7 +320,7 @@ nav ul li a:hover::after{
 
 /* Contact section*/
 .contact-title{
-    margin-top: 10%;
+    margin-top:7%;
 }
 
 
@@ -331,7 +331,7 @@ nav ul li a:hover::after{
     left: 20%;
     font-weight: bold;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .contact{
@@ -351,7 +351,7 @@ nav ul li a:hover::after{
 
 
 .input-group{
-    margin:30px
+    margin:20px
 }
 
 
@@ -377,7 +377,7 @@ nav ul li a:hover::after{
     justify-content: center;
     position: relative;
     left: 150px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px ;
     padding: 10px 25px;
     border: 1.5px solid var(--color-pink);
@@ -436,7 +436,6 @@ nav ul li a:hover::after{
     
 }
 .social-links a >i:hover{
-    color: red;
     transform: translateY(-5px);
 }
 
