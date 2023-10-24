@@ -46,7 +46,7 @@ openMenu.addEventListener("click", function(){
 
 
 closeMenu.addEventListener("click", function(){
-    sideMenu.style.right= "-220px";
+    sideMenu.style.right= "-210px";
 });
 
 
