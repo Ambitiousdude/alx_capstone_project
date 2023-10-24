@@ -5,111 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>My Portfolio Website</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/1be7092c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
     
     <!-- Navigation section starts -->
-  <div class="header">
+    <div id="home-main">
+        <div class="header">
     <nav>
-
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#home">About</a></li>
+            <ul id="sidemenu">
+                <li><a href="#home-main">Home</a></li>
+                <li><a href="#about-main">About</a></li>
                 <li><a href="#home">Portfolio</a></li>
-                <li><a href="#home">Contact</a></li>
+                <li><a href="#contact-main">Contact</a></li>
+            <i class="fa-solid fa-xmark" id="closemenu"  style="color:#f3edef;"></i>
+            
             </ul>
+            <i class="fa-solid fa-bars" id="openmenu"  style ="color: #f3edef;"></i>
+            
         </nav>
   </div>
    <!-- Navigation section ends -->
 
-
-
    <!--Home section starts-->
-   <section>
+<section class="home-text">
     <div class="home-section">
         <h1> HELLO, I'M UGBERAESE AUGUSTINE</h1><br>
-        <p class="P1">A PASSIONATE <span>FRONT END DEVELOPER</span></p> 
+        <div class="about-writeups">
+            <p class="P1">A PASSIONATE <span>FRONT END DEVELOPER</span></p> 
            <p class="P2">WITH A KNACK FOR CREATIVE</p>
-           <p class="P3">INNOVATIVE SOLUTIONS.</p> 
+           <p class="P3">INNOVATIVE SOLUTIONS.</p>
+        </div>
+           
+           
     </div>
-
-    <a href="#" class="btn">HIRE ME LET'S TALK!</a>
-
+    <div class="button">
+        <a href="#" class="btn">HIRE ME LET'S TALK</a> 
+    </div>
     <div class="image">
         <img src="./ASSETS/Image.png" class="img">
     </div>
-
-   </section>
+</section>
+    </div>
    <!--Home section ends-->
 
    <!-- About me Section Starts  -->
-   <section class="about-me">
-    <h2 class="heading2">About Me</h2>
+   <div id="about-main">
 
-    <div class="about-content">
-        <p>I AM  <span>FRONT END DEVELOPER</span>, AND A <span>UI/UX <br> DESIGNER</span> WITH THE COMPETENT SKILLS TO <br> HANDLE ANY PROJECT RELATING TO USER <br>INTERFACE, WEB-DEVELOPMENT, AND ALSO THE<br> BACKEND DEVELOPMENT.</p><br> 
+     <section class="about-me">
+        <div class="about-row">
+            <div class="col-1">
+                <img src="./ASSETS/Image.png" class="img2">
+            </div>
+            <div class="col-2">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>I AM  <span>FRONT END DEVELOPER</span>, AND A <span>UI/UX <br> DESIGNER</span> WITH THE COMPETENT SKILLS TO <br> HANDLE ANY PROJECT RELATING TO USER <br>INTERFACE, WEB-DEVELOPMENT, AND ALSO THE<br> BACKEND DEVELOPMENT.</p><br> 
 
-            <p>I ENJOY PROBLEM SOLVING USING DIVERSE <br> METHODS AS FAR AS IT IS IN <span>JS/PYTHON</span> <br> LANGUAGES, AND ALSO <span>FIGMA</span>.</p><br>
+                    <p>I ENJOY PROBLEM SOLVING USING DIVERSE <br> METHODS AS FAR AS IT IS IN <span>JS/PYTHON</span> <br> LANGUAGES, AND ALSO <span>FIGMA</span>.</p><br>
             
-            <p>I AM READY TO MAKE AN IMMEDIATE <br> CONTRIBUTION TO YOUR COMPANY WITH <br> EXCELLENT SKILLS.</p>
-            <h3>Skills</h3>
-    </div>
-    <div class="skills">
-        <div class="skill-items">HTML</div>
-        <div class="skill-items">FIGMA</div>
-        <div class="skill-items">CSS</div>
-        <div class="skill-items">JAVASCRIPT</div>
-        <div class="skill-items">PYTHON</div>
-    </div>
-
-    <div class="image2">
-        <img src="./ASSETS/Image.png" class="img2">
-    </div>
-
-    <div class="about-tabs">
-        <button type="button" class="tabs-items active2" data-target= "#education">Education</button>
-        <button type="button" class="tabs-items" data-target= "#experience">Experience</button>
+                    <p>I AM READY TO MAKE AN IMMEDIATE <br> CONTRIBUTION TO YOUR COMPANY WITH <br> EXCELLENT SKILLS.</p>
+                    <h3>Skills</h3>
+                </div>
+            <div class="skills">
+                <div class="skill-items">HTML</div>
+                <div class="skill-items">FIGMA</div>
+                <div class="skill-items">CSS</div>
+                <div class="skill-items">JAVASCRIPT</div>
+                <div class="skill-items">PYTHON</div>
+            </div>
+    
+            <div class="about-skills">
+                <p class="skill-links active-link" id="education-link">Education</p>
+                <p class="skill-links" id="experience-link">Experience</p>
+            </div>
         
-        <!-- Education starts-->
-        <div class="tab-content active3" id="education">
-            <div class="time-line">
-              <div class="timeline-items">
-                <span class="date">2022-2023</span>
-                <h4>ALX/Holberton School Software Engineering Program</h4>
-                <p>We were taught the rudiments of Sofware Engineering and <br> exposed to different programming languages like Javascript, <br> Python, and MySQL.</p>
-            </div>  
-            </div>
-    </div>
-        <!-- Education ends-->
+                <!-- Education starts-->
+                <div class= "Edu-Exp">
+                    <div class="tab-content active-tab">
+                        <ul>
+                            <li><span>2022 - Current</span><br>ALX/Holberton School Software Engineering Program</li>
+                            <li class="content1">We were taught the rudiments of Sofware Engineering and <br> exposed to different programming languages like Javascript, <br> Python, and MySQL</li>
+                        </ul>
+                    </div> 
+                    <!-- Education ends-->
 
-        <!--Experience starts-->
-        <div class="tab-content" id="experience">
-            <div class="time-line">
-              <div class="timeline-items">
-                <span class="date">2022-2023</span>
-                <h4>Front-end Developer</h4>
-                <p>Being a Front-End Developer at XYZ Tech Solutions <br>has been a dynamic and rewarding experience.<br> I've had the opportunity to work on diverse projects, <br>improve user experiences, and contribute to the company's success 
-                <br>by ensuring the web applications are modern, efficient, and user-friendly.</p>
+                     <!-- Experience starts-->
+                     <div class="tab-content">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Front - End Developer</li>
+                            <li class="content1">Being a Front - End Developer at ALX Tech<br>has been a dynamic and rewarding experience.<br> I've had the opportunity to work on diverse projects, <br>improve user experiences, and contribute to the company's success 
+                                <br>by ensuring the web applications are modern, efficient, and user-friendly.</li>
+                        </ul>
+                    </div> 
+                    <!-- Experience ends-->
+                </div>
+                     <div class="button2">
+                        <a download href="./ASSETS/AUGUSTINE UGBERAESE.pdf" class="btn2">Download Cv</a>
+                     </div>
             </div>
+
         </div>
-
-        <!--Experience ends--> 
-        
-    </div>
-    <a href="#" class=" btn" id="btn2">Download Cv</a>
    </section>
-   <!-- About me section ends-->
-   
+   </div>
+  <!-- About me section ends-->
    
    <!--Contact section starts-->
-   <section class="contact-section">
+   <div id="contact-main">
+
+     <section class="contact-section">
     <div class="contact-title">
     <h1 class="heading1"> Contact Me</h1>
    </div>
     
-   <div class="contact-form">
-        <form>
+   <div class="contact">
+      <div class="contact-form">
+        <form name="submit-to-google-sheet">
             
               <div class="input-group">
                 <input type="text" placeholder="NAME" class="input-control" required>
@@ -128,9 +140,41 @@
             
         </form>
     </div> 
-   </section>
-    <!--Contact section ends-->
+    
+    <div class="contact-info">
+        <div class="contact-info-items">
+            <h3>Email</h3>
+            <p><i class="fa-regular fa-envelope"></i>Ugberaeseoa@gmail.com</p>
+        </div>
+        <div class="contact-info-items">
+            <h3>Phone Number</h3>
+            <p><i class="fa-solid fa-phone"></i></i>+2347019505302</p>
+        </div>
+        <div class="contact-info-items">
+            <h3>Follow me</h3>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></i></a>
+            </div>
+        </div>  
+    </div>
+   
+    </div>
+   </section>  
+   </div>
+  <!--Contact section ends-->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyo8dqzxC_dCA_2BpWlbTXDrfnpo1nUqlli6PhMvhpFj-nuxYquJ6sLlm7OpiVOQWe_NA/exec'
+    const form = document.forms['submit-to-google-sheet']
   
-<script src="./JAVASCRIPT/portfolio.js"></script>
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
+<script src="./JAVASCRIPT/portfolio.js"></script>
 </html>
