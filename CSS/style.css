@@ -372,11 +372,11 @@ nav ul li a:hover::after{
     height: 35vh;
 }
 
-.btn3{
+#btn3{
     display: inline-block;
     justify-content: center;
     position: relative;
-    left: 100px;
+    left: 150px;
     margin-top: 30px;
     margin-bottom: 30px ;
     padding: 10px 25px;
@@ -390,7 +390,7 @@ nav ul li a:hover::after{
 }
 
 
-.btn3::after{
+#btn3::after{
     content:"";
     border-radius: 10px;
     width: 0;
@@ -403,7 +403,7 @@ nav ul li a:hover::after{
     opacity: 0.70;
 }
 
-.btn3:hover::after{
+#btn3:hover::after{
     width: 100%;
     background-color: var(--color-pink);
 }
@@ -439,6 +439,7 @@ nav ul li a:hover::after{
     color: red;
     transform: translateY(-5px);
 }
+
 
 
 

@@ -121,7 +121,7 @@
     
    <div class="contact">
       <div class="contact-form">
-        <form name="submit-to-google-sheet">
+        <form action="https://script.google.com/macros/s/AKfycbwXAXfWEIFZpMEJMy9H4X13KDfqZcc690t04wBZ_8p3Q6O1UnWTiyVsX-FUiPUzfEwhtA/exec" method="POST">
             
               <div class="input-group">
                 <input type="text" placeholder="NAME" class="input-control" required>
@@ -136,7 +136,7 @@
               <textarea placeholder="MESSAGE" class="input-control message" required></textarea>
             </div>
 
-            <button type="submit" class="btn3">Send Message</button>
+            <input type="submit" value="Send Message" id="btn3" >Send Message</button>
             
         </form>
     </div> 
@@ -164,6 +164,8 @@
    </section>  
    </div>
   <!--Contact section ends-->
+  
+  <!--Script to fetch datas from any employer starts-->
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyo8dqzxC_dCA_2BpWlbTXDrfnpo1nUqlli6PhMvhpFj-nuxYquJ6sLlm7OpiVOQWe_NA/exec'
     const form = document.forms['submit-to-google-sheet']
@@ -175,6 +177,7 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+   <!--Script to fetch datas from any employer ends-->
 </body>
 <script src="./JAVASCRIPT/portfolio.js"></script>
 </html>
